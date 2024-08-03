@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestParallel"  parallel="tests">
+	
+	<test name="Testing on chrome" annotations="JDK" preserve-order="true" thread-count="5">
+		<parameter name="browser" value="chrome"></parameter>
+		
+		<classes>
+			<class name="selennium.TestCase1"></class>
+			<class name="selennium.TestCase2"></class>
+		</classes>
+		
+	</test>
+	
+	<test name="Testing on firefox" annotations="JDK" preserve-order="true" thread-count="5">
+		<parameter name="browser" value="firefox"></parameter>
+		
+		<classes>
+			<class name="selennium.TestCase1"></class>
+			<class name="selennium.TestCase2"></class>
+		</classes>
+		
+	</test>
+	
+	<test name="Testing on edge" annotations="JDK" preserve-order="true" thread-count="5">
+		<parameter name="browser" value="edge"></parameter>
+		
+		<classes>
+			<class name="selennium.TestCase1"></class>
+			<class name="selennium.TestCase2"></class>
+		</classes>
+		
+	</test>
+	
+</suite>
