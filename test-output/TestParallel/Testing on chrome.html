@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Aug 02 21:17:21 IST 2024</td>
+<td>Started on:</td><td>Sat Aug 03 14:06:55 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>35 seconds (35621 ms)</td>
+<tr><td>Total time:</td><td>82 seconds (82633 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,17 +75,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='selennium.TestCase1.verify_TitleLogo()'><b>verify_TitleLogo</b><br>Test class: selennium.TestCase1</td>
+<td title='selennium.TestCase2.click_on_Account_link()'><b>click_on_Account_link</b><br>Test class: selennium.TestCase2</td>
 <td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: MicrosoftEdge=127.0.2651.74)
+  (Session info: chrome=127.0.6533.89)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [c8777fd81bbfbfc0e4525af6dc631b2c, sendKeysToElement {id=f.4127010383819E9FEFECEA241AD6ADB5.d.A90D63D3910258683E93A6CAF5BD198B.e.16, value=[Ljava.lang.CharSequence;@179f2bb2}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.74, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49554}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49554/devtoo..., se:cdpVersion: 127.0.2651.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (c8777fd81bbfbfc0e4525af6dc631b2c)] -&gt; xpath: //input[@id=&apos;twotabsearchtextbox&apos;]]
-Session ID: c8777fd81bbfbfc0e4525af6dc631b2c
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6203c6aed3b17494a9bf9fdc19be7e71, clickElement {id=f.8C3447666CAC6BDEF18CE1BF37955D05.d.EBF67DF5AE06048AC6DCE7137A6A0693.e.130}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61890}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61890/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6203c6aed3b17494a9bf9fdc19be7e71)] -&gt; xpath: //a[@id=&apos;nav-link-accountList&apos;]]
+Session ID: 6203c6aed3b17494a9bf9fdc19be7e71
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -94,24 +94,24 @@ Session ID: c8777fd81bbfbfc0e4525af6dc631b2c
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
-	at selennium.TestCase1.verify_TitleLogo(TestCase1.java:15)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at selennium.TestCase2.click_on_Account_link(TestCase2.java:15)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1069989950", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1069989950'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: MicrosoftEdge=127.0.2651.74)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1698404196", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1698404196'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=127.0.6533.89)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [c8777fd81bbfbfc0e4525af6dc631b2c, sendKeysToElement {id=f.4127010383819E9FEFECEA241AD6ADB5.d.A90D63D3910258683E93A6CAF5BD198B.e.16, value=[Ljava.lang.CharSequence;@179f2bb2}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.74, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49554}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49554/devtoo..., se:cdpVersion: 127.0.2651.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (c8777fd81bbfbfc0e4525af6dc631b2c)] -&gt; xpath: //input[@id=&apos;twotabsearchtextbox&apos;]]
-Session ID: c8777fd81bbfbfc0e4525af6dc631b2c
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6203c6aed3b17494a9bf9fdc19be7e71, clickElement {id=f.8C3447666CAC6BDEF18CE1BF37955D05.d.EBF67DF5AE06048AC6DCE7137A6A0693.e.130}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61890}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61890/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6203c6aed3b17494a9bf9fdc19be7e71)] -&gt; xpath: //a[@id=&apos;nav-link-accountList&apos;]]
+Session ID: 6203c6aed3b17494a9bf9fdc19be7e71
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -125,8 +125,8 @@ Session ID: c8777fd81bbfbfc0e4525af6dc631b2c
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
-	at selennium.TestCase1.verify_TitleLogo(TestCase1.java:15)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at selennium.TestCase2.click_on_Account_link(TestCase2.java:15)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -151,8 +151,8 @@ Session ID: c8777fd81bbfbfc0e4525af6dc631b2c
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 </pre></div></td>
-<td>3</td>
-<td>selennium.TestCase1@27f981c6</td></tr>
+<td>2</td>
+<td>selennium.TestCase2@60099951</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -162,10 +162,10 @@ Session ID: c8777fd81bbfbfc0e4525af6dc631b2c
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='selennium.TestCase2.click_on_Account_link()'><b>click_on_Account_link</b><br>Test class: selennium.TestCase2</td>
+<td title='selennium.TestCase1.verify_TitleLogo()'><b>verify_TitleLogo</b><br>Test class: selennium.TestCase1</td>
 <td></td>
-<td>6</td>
-<td>selennium.TestCase2@60099951</td></tr>
+<td>32</td>
+<td>selennium.TestCase1@27f981c6</td></tr>
 </table><p>
 </body>
 </html>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Failed suite [TestParallel]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="Testing on edge(failed)">
-    <parameter name="browser" value="edge"/>
+  <test thread-count="5" parallel="tests" name="Testing on chrome(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="selennium.TestCase2">
         <methods>
@@ -11,18 +11,6 @@
           <include name="terminate"/>
         </methods>
       </class> <!-- selennium.TestCase2 -->
-    </classes>
-  </test> <!-- Testing on edge(failed) -->
-  <test thread-count="5" parallel="tests" name="Testing on chrome(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="selennium.TestCase1">
-        <methods>
-          <include name="verify_TitleLogo"/>
-          <include name="Setup"/>
-          <include name="terminate"/>
-        </methods>
-      </class> <!-- selennium.TestCase1 -->
     </classes>
   </test> <!-- Testing on chrome(failed) -->
   <test thread-count="5" parallel="tests" name="Testing on firefox(failed)">

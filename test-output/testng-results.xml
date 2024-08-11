@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="3" failed="2" skipped="1">
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-02T21:17:21 IST" name="TestParallel" finished-at="2024-08-02T21:18:06 IST" duration-ms="44667">
+  <suite started-at="2024-08-03T14:06:55 IST" name="TestParallel" finished-at="2024-08-03T14:08:18 IST" duration-ms="82848">
     <groups>
     </groups>
-    <test started-at="2024-08-02T21:17:21 IST" name="Testing on edge" finished-at="2024-08-02T21:17:56 IST" duration-ms="35120">
+    <test started-at="2024-08-03T14:06:55 IST" name="Testing on edge" finished-at="2024-08-03T14:07:58 IST" duration-ms="62203">
       <class name="selennium.TestCase2">
-        <test-method is-config="true" signature="Setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:selennium.TestCase2@75d3a5e0]" started-at="2024-08-02T21:17:42 IST" name="Setup" finished-at="2024-08-02T21:17:53 IST" duration-ms="10615" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:selennium.TestCase2@75d3a5e0]" started-at="2024-08-03T14:07:40 IST" name="Setup" finished-at="2024-08-03T14:07:52 IST" duration-ms="11769" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,82 +23,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="click_on_Account_link()[pri:0, instance:selennium.TestCase2@75d3a5e0]" started-at="2024-08-02T21:17:53 IST" name="click_on_Account_link" finished-at="2024-08-02T21:17:55 IST" duration-ms="2039" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='nav-link-accountList']"}
-  (Session info: MicrosoftEdge=127.0.2651.74)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [81d0416a89bf5db72f32e1147a39ff41, findElement {using=xpath, value=//a[@id='nav-link-accountList']}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.74, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49914}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49914/devtoo..., se:cdpVersion: 127.0.2651.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 81d0416a89bf5db72f32e1147a39ff41]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='nav-link-accountList']"}
-  (Session info: MicrosoftEdge=127.0.2651.74)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [81d0416a89bf5db72f32e1147a39ff41, findElement {using=xpath, value=//a[@id='nav-link-accountList']}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.74, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49914}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49914/devtoo..., se:cdpVersion: 127.0.2651.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 81d0416a89bf5db72f32e1147a39ff41
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-at selennium.TestCase2.click_on_Account_link(TestCase2.java:13)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="click_on_Account_link()[pri:0, instance:selennium.TestCase2@75d3a5e0]" started-at="2024-08-03T14:07:52 IST" name="click_on_Account_link" finished-at="2024-08-03T14:07:58 IST" duration-ms="5623" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_on_Account_link -->
-        <test-method is-config="true" signature="terminate()[pri:0, instance:selennium.TestCase2@75d3a5e0]" started-at="2024-08-02T21:17:55 IST" name="terminate" finished-at="2024-08-02T21:17:56 IST" duration-ms="1458" status="PASS">
+        <test-method is-config="true" signature="terminate()[pri:0, instance:selennium.TestCase2@75d3a5e0]" started-at="2024-08-03T14:07:58 IST" name="terminate" finished-at="2024-08-03T14:07:58 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->
       </class> <!-- selennium.TestCase2 -->
       <class name="selennium.TestCase1">
-        <test-method is-config="true" signature="Setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:selennium.TestCase1@2034b64c]" started-at="2024-08-02T21:17:21 IST" name="Setup" finished-at="2024-08-02T21:17:35 IST" duration-ms="13582" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:selennium.TestCase1@2034b64c]" started-at="2024-08-03T14:06:55 IST" name="Setup" finished-at="2024-08-03T14:07:17 IST" duration-ms="21634" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -114,88 +49,19 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="verify_TitleLogo()[pri:0, instance:selennium.TestCase1@2034b64c]" started-at="2024-08-02T21:17:35 IST" name="verify_TitleLogo" finished-at="2024-08-02T21:17:40 IST" duration-ms="5447" status="PASS">
+        <test-method signature="verify_TitleLogo()[pri:0, instance:selennium.TestCase1@2034b64c]" started-at="2024-08-03T14:07:17 IST" name="verify_TitleLogo" finished-at="2024-08-03T14:07:32 IST" duration-ms="15379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_TitleLogo -->
-        <test-method is-config="true" signature="terminate()[pri:0, instance:selennium.TestCase1@2034b64c]" started-at="2024-08-02T21:17:40 IST" name="terminate" finished-at="2024-08-02T21:17:42 IST" duration-ms="1896" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Timed out waiting for driver server to stop.
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [03211085-ddf4-4f70-a68a-d10096238b79, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:23901, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 20296, moz:profile: C:\Users\bhaumik.gohel\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:23901/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [03211085-ddf4-4f70-a68a-d10096238b79, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:23901, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 20296, moz:profile: C:\Users\bhaumik.gohel\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:23901/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:165)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:680)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:684)
-at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:442)
-at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:393)
-at selennium.ParallelExecution.terminate(ParallelExecution.java:48)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-Caused by: java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
-at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:161)
-... 34 more
-Caused by: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:390)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:366)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:128)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-... 3 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:selennium.TestCase1@2034b64c]" started-at="2024-08-03T14:07:32 IST" name="terminate" finished-at="2024-08-03T14:07:40 IST" duration-ms="7721" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->
       </class> <!-- selennium.TestCase1 -->
     </test> <!-- Testing on edge -->
-    <test started-at="2024-08-02T21:17:21 IST" name="Testing on chrome" finished-at="2024-08-02T21:17:57 IST" duration-ms="35621">
+    <test started-at="2024-08-03T14:06:55 IST" name="Testing on chrome" finished-at="2024-08-03T14:08:18 IST" duration-ms="82633">
       <class name="selennium.TestCase2">
-        <test-method is-config="true" signature="Setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:selennium.TestCase2@60099951]" started-at="2024-08-02T21:17:42 IST" name="Setup" finished-at="2024-08-02T21:17:51 IST" duration-ms="8411" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:selennium.TestCase2@60099951]" started-at="2024-08-03T14:07:57 IST" name="Setup" finished-at="2024-08-03T14:08:14 IST" duration-ms="16616" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -204,64 +70,38 @@ at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableF
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@5b38c1ec]]>
+                <![CDATA[org.testng.TestRunner@15a34df2]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="click_on_Account_link()[pri:0, instance:selennium.TestCase2@60099951]" started-at="2024-08-02T21:17:51 IST" name="click_on_Account_link" finished-at="2024-08-02T21:17:57 IST" duration-ms="6222" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- click_on_Account_link -->
-        <test-method is-config="true" signature="terminate()[pri:0, instance:selennium.TestCase2@60099951]" started-at="2024-08-02T21:17:57 IST" name="terminate" finished-at="2024-08-02T21:17:57 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- terminate -->
-      </class> <!-- selennium.TestCase2 -->
-      <class name="selennium.TestCase1">
-        <test-method is-config="true" signature="Setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:selennium.TestCase1@27f981c6]" started-at="2024-08-02T21:17:21 IST" name="Setup" finished-at="2024-08-02T21:17:35 IST" duration-ms="13697" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@5b38c1ec]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="verify_TitleLogo()[pri:0, instance:selennium.TestCase1@27f981c6]" started-at="2024-08-02T21:17:35 IST" name="verify_TitleLogo" finished-at="2024-08-02T21:17:38 IST" duration-ms="3403" status="FAIL">
+        <test-method signature="click_on_Account_link()[pri:0, instance:selennium.TestCase2@60099951]" started-at="2024-08-03T14:08:14 IST" name="click_on_Account_link" finished-at="2024-08-03T14:08:16 IST" duration-ms="2162" status="FAIL">
           <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
               <![CDATA[stale element reference: stale element not found
-  (Session info: MicrosoftEdge=127.0.2651.74)
+  (Session info: chrome=127.0.6533.89)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [c8777fd81bbfbfc0e4525af6dc631b2c, sendKeysToElement {id=f.4127010383819E9FEFECEA241AD6ADB5.d.A90D63D3910258683E93A6CAF5BD198B.e.16, value=[Ljava.lang.CharSequence;@179f2bb2}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.74, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49554}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49554/devtoo..., se:cdpVersion: 127.0.2651.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (c8777fd81bbfbfc0e4525af6dc631b2c)] -> xpath: //input[@id='twotabsearchtextbox']]
-Session ID: c8777fd81bbfbfc0e4525af6dc631b2c]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6203c6aed3b17494a9bf9fdc19be7e71, clickElement {id=f.8C3447666CAC6BDEF18CE1BF37955D05.d.EBF67DF5AE06048AC6DCE7137A6A0693.e.130}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61890}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61890/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6203c6aed3b17494a9bf9fdc19be7e71)] -> xpath: //a[@id='nav-link-accountList']]
+Session ID: 6203c6aed3b17494a9bf9fdc19be7e71]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: MicrosoftEdge=127.0.2651.74)
+  (Session info: chrome=127.0.6533.89)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [c8777fd81bbfbfc0e4525af6dc631b2c, sendKeysToElement {id=f.4127010383819E9FEFECEA241AD6ADB5.d.A90D63D3910258683E93A6CAF5BD198B.e.16, value=[Ljava.lang.CharSequence;@179f2bb2}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.74, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49554}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49554/devtoo..., se:cdpVersion: 127.0.2651.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (c8777fd81bbfbfc0e4525af6dc631b2c)] -> xpath: //input[@id='twotabsearchtextbox']]
-Session ID: c8777fd81bbfbfc0e4525af6dc631b2c
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6203c6aed3b17494a9bf9fdc19be7e71, clickElement {id=f.8C3447666CAC6BDEF18CE1BF37955D05.d.EBF67DF5AE06048AC6DCE7137A6A0693.e.130}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61890}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61890/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6203c6aed3b17494a9bf9fdc19be7e71)] -> xpath: //a[@id='nav-link-accountList']]
+Session ID: 6203c6aed3b17494a9bf9fdc19be7e71
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -275,8 +115,8 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
-at selennium.TestCase1.verify_TitleLogo(TestCase1.java:15)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at selennium.TestCase2.click_on_Account_link(TestCase2.java:15)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -305,42 +145,42 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_TitleLogo -->
-        <test-method is-config="true" signature="terminate()[pri:0, instance:selennium.TestCase1@27f981c6]" started-at="2024-08-02T21:17:38 IST" name="terminate" finished-at="2024-08-02T21:17:42 IST" duration-ms="3809" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- terminate -->
-      </class> <!-- selennium.TestCase1 -->
-    </test> <!-- Testing on chrome -->
-    <test started-at="2024-08-02T21:17:21 IST" name="Testing on firefox" finished-at="2024-08-02T21:18:06 IST" duration-ms="44667">
-      <class name="selennium.TestCase2">
-        <test-method is-config="true" signature="Setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:selennium.TestCase2@3b0fe47a]" started-at="2024-08-02T21:17:42 IST" name="Setup" finished-at="2024-08-02T21:18:00 IST" duration-ms="17343" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@4eacd497]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="click_on_Account_link()[pri:0, instance:selennium.TestCase2@3b0fe47a]" started-at="2024-08-02T21:18:00 IST" name="click_on_Account_link" finished-at="2024-08-02T21:18:03 IST" duration-ms="3581" status="PASS">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- click_on_Account_link -->
-        <test-method is-config="true" signature="terminate()[pri:0, instance:selennium.TestCase2@3b0fe47a]" started-at="2024-08-02T21:18:03 IST" name="terminate" finished-at="2024-08-02T21:18:06 IST" duration-ms="2753" status="PASS">
+        <test-method is-config="true" signature="terminate()[pri:0, instance:selennium.TestCase2@60099951]" started-at="2024-08-03T14:08:16 IST" name="terminate" finished-at="2024-08-03T14:08:18 IST" duration-ms="1779" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->
       </class> <!-- selennium.TestCase2 -->
       <class name="selennium.TestCase1">
-        <test-method is-config="true" signature="Setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:selennium.TestCase1@7ef82753]" started-at="2024-08-02T21:17:21 IST" name="Setup" finished-at="2024-08-02T21:17:42 IST" duration-ms="20908" status="FAIL">
+        <test-method is-config="true" signature="Setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:selennium.TestCase1@27f981c6]" started-at="2024-08-03T14:06:55 IST" name="Setup" finished-at="2024-08-03T14:07:20 IST" duration-ms="24930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@15a34df2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verify_TitleLogo()[pri:0, instance:selennium.TestCase1@27f981c6]" started-at="2024-08-03T14:07:20 IST" name="verify_TitleLogo" finished-at="2024-08-03T14:07:53 IST" duration-ms="32698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_TitleLogo -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:selennium.TestCase1@27f981c6]" started-at="2024-08-03T14:07:53 IST" name="terminate" finished-at="2024-08-03T14:07:57 IST" duration-ms="4369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- selennium.TestCase1 -->
+    </test> <!-- Testing on chrome -->
+    <test started-at="2024-08-03T14:06:55 IST" name="Testing on firefox" finished-at="2024-08-03T14:08:18 IST" duration-ms="82848">
+      <class name="selennium.TestCase2">
+        <test-method is-config="true" signature="Setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:selennium.TestCase2@3b0fe47a]" started-at="2024-08-03T14:07:40 IST" name="Setup" finished-at="2024-08-03T14:08:14 IST" duration-ms="33797" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -349,96 +189,58 @@ at java.base/java.lang.Thread.run(Thread.java:833)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@4eacd497]]>
+                <![CDATA[org.testng.TestRunner@5b38c1ec]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connection
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [03211085-ddf4-4f70-a68a-d10096238b79, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:23901, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 20296, moz:profile: C:\Users\bhaumik.gohel\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:23901/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 03211085-ddf4-4f70-a68a-d10096238b79]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [03211085-ddf4-4f70-a68a-d10096238b79, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:23901, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 20296, moz:profile: C:\Users\bhaumik.gohel\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:23901/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 03211085-ddf4-4f70-a68a-d10096238b79
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:680)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:684)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1123)
-at selennium.ParallelExecution.Setup(ParallelExecution.java:43)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="verify_TitleLogo()[pri:0, instance:selennium.TestCase1@7ef82753]" started-at="2024-08-02T21:17:42 IST" name="verify_TitleLogo" finished-at="2024-08-02T21:17:42 IST" duration-ms="0" status="SKIP">
+        <test-method signature="click_on_Account_link()[pri:0, instance:selennium.TestCase2@3b0fe47a]" started-at="2024-08-03T14:08:14 IST" name="click_on_Account_link" finished-at="2024-08-03T14:08:18 IST" duration-ms="4223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_Account_link -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:selennium.TestCase2@3b0fe47a]" started-at="2024-08-03T14:08:18 IST" name="terminate" finished-at="2024-08-03T14:08:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- selennium.TestCase2 -->
+      <class name="selennium.TestCase1">
+        <test-method is-config="true" signature="Setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:selennium.TestCase1@7ef82753]" started-at="2024-08-03T14:06:55 IST" name="Setup" finished-at="2024-08-03T14:07:33 IST" duration-ms="37319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b38c1ec]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verify_TitleLogo()[pri:0, instance:selennium.TestCase1@7ef82753]" started-at="2024-08-03T14:07:33 IST" name="verify_TitleLogo" finished-at="2024-08-03T14:07:40 IST" duration-ms="7430" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[Tried to run command without establishing a connection
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [03211085-ddf4-4f70-a68a-d10096238b79, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:23901, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 20296, moz:profile: C:\Users\bhaumik.gohel\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:23901/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 03211085-ddf4-4f70-a68a-d10096238b79]]>
+Command: [5b5750ef-adeb-495e-b7b8-8f6983e79aea, findElement {using=xpath, value=//input[@id='twotabsearchtextbox']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:25426, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 2216, moz:profile: C:\Users\bhaumik.gohel\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:25426/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5b5750ef-adeb-495e-b7b8-8f6983e79aea]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [03211085-ddf4-4f70-a68a-d10096238b79, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:23901, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 20296, moz:profile: C:\Users\bhaumik.gohel\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:23901/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 03211085-ddf4-4f70-a68a-d10096238b79
+Command: [5b5750ef-adeb-495e-b7b8-8f6983e79aea, findElement {using=xpath, value=//input[@id='twotabsearchtextbox']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:25426, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 2216, moz:profile: C:\Users\bhaumik.gohel\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:25426/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5b5750ef-adeb-495e-b7b8-8f6983e79aea
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -451,20 +253,17 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:680)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:684)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1123)
-at selennium.ParallelExecution.Setup(ParallelExecution.java:43)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at selennium.TestCase1.verify_TitleLogo(TestCase1.java:13)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
@@ -488,7 +287,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_TitleLogo -->
-        <test-method is-config="true" signature="terminate()[pri:0, instance:selennium.TestCase1@7ef82753]" started-at="2024-08-02T21:17:42 IST" name="terminate" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1722613662745" status="SKIP">
+        <test-method is-config="true" signature="terminate()[pri:0, instance:selennium.TestCase1@7ef82753]" started-at="2024-08-03T14:07:40 IST" name="terminate" finished-at="2024-08-03T14:07:40 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->
