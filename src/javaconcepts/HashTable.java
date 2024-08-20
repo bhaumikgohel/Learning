@@ -6,6 +6,12 @@ public class HashTable {
 
 	public static void main(String[] args) {
 		
+		//HashTable is from Table interface
+		//Hashtable not allow key & value null
+		//Hashtable is in the form of key and value pair
+		//Hashtable as compare to slow as Hashmap
+		//
+		
 		String st = "bhaumikaa";
 		
 		
@@ -15,8 +21,9 @@ public class HashTable {
 		ht.put("Aarav","Dash");
 		ht.put(1, "Test");
 		ht.put("jalay", 0.8);
+		ht.put(1,"Test2");
 		
-		ht.put(1,2.333);
+		System.out.println(ht);
 		
 		System.out.println(ht.size());
 		

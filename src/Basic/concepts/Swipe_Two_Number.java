@@ -1,4 +1,4 @@
-package Interview;
+package Basic.concepts;
 
 public class Swipe_Two_Number {
 

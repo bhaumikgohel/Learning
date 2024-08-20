@@ -1,4 +1,4 @@
-package Interview;
+package Basic.concepts;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,7 +8,7 @@ public class Count_Charater_From_String {
 	
 	public static void charfind(String str) {
 		
-	/*	Map<Character, Integer> m = new HashMap<Character, Integer>();
+	Map<Character, Integer> m = new HashMap<Character, Integer>();
 		
 		char strr[] = str.toCharArray();
 		
@@ -19,17 +19,8 @@ public class Count_Charater_From_String {
 				m.put(c,1);
 			}
 		}
-		System.out.println(m);*/
-		
-		
-		// Reverse String in JAVA
-		
-		String OUTPUT = " ";
-		
-		for (int i=str.length()-1; i>=0;i--) {
-			OUTPUT = OUTPUT + str.charAt(i);
-		}
-		System.out.println(OUTPUT);
+		System.out.println(m);
+	
 		
 	}
 	public static void main(String[] args) {

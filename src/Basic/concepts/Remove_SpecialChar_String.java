@@ -1,4 +1,4 @@
-package Interview;
+package Basic.concepts;
 
 public class Remove_SpecialChar_String {
 
@@ -6,7 +6,7 @@ public class Remove_SpecialChar_String {
 		
 		String S1 = "@#$%^& This is new Year @#$%^&*( of 2024";
 		
-		String b = S1.replaceAll("[^0-9A-Za-z]", "");
+		String b = S1.replaceAll("[^0-9A-Za-z ]", "");
 		
 		System.out.println(b);
 
